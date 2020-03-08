@@ -171,3 +171,7 @@ API
 Training
 Blog
 About
+
+#Target from modules - added by Martin.
+/pet-clinic-web/target/
+/pet-clinic-data/target/
