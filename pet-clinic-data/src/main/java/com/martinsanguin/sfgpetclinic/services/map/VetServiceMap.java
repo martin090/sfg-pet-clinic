@@ -2,10 +2,11 @@ package com.martinsanguin.sfgpetclinic.services.map;
 
 import com.martinsanguin.sfgpetclinic.model.Vet;
 import com.martinsanguin.sfgpetclinic.services.CrudService;
+import com.martinsanguin.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
