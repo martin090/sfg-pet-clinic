@@ -1,8 +1,14 @@
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/map/PetServiceMap.java
+/Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/model/Visit.java
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/map/OwnerServiceMap.java
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/model/Person.java
+/Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/map/PetTypeServiceMap.java
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/map/AbstractMapService.java
+/Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/model/Speciality.java
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/PetService.java
+/Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/map/SpecialityMapService.java
+/Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/SpecialityService.java
+/Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/PetTypeService.java
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/map/VetServiceMap.java
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/services/VetService.java
 /Users/martinsanguin/Documents/Java Spring Projects/sfg-pet-clinic/pet-clinic-data/src/main/java/com/martinsanguin/sfgpetclinic/model/Pet.java

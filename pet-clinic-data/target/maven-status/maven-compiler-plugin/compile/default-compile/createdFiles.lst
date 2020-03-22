@@ -5,10 +5,16 @@ com/martinsanguin/sfgpetclinic/services/OwnerService.class
 com/martinsanguin/sfgpetclinic/services/map/AbstractMapService.class
 com/martinsanguin/sfgpetclinic/model/Pet.class
 com/martinsanguin/sfgpetclinic/services/PetService.class
+com/martinsanguin/sfgpetclinic/services/SpecialityService.class
 com/martinsanguin/sfgpetclinic/services/CrudService.class
 com/martinsanguin/sfgpetclinic/services/map/PetServiceMap.class
 com/martinsanguin/sfgpetclinic/model/BaseEntity.class
+com/martinsanguin/sfgpetclinic/services/map/SpecialityMapService.class
+com/martinsanguin/sfgpetclinic/model/Speciality.class
+com/martinsanguin/sfgpetclinic/services/PetTypeService.class
+com/martinsanguin/sfgpetclinic/services/map/PetTypeServiceMap.class
 com/martinsanguin/sfgpetclinic/services/map/OwnerServiceMap.class
 com/martinsanguin/sfgpetclinic/model/Vet.class
 com/martinsanguin/sfgpetclinic/model/Person.class
+com/martinsanguin/sfgpetclinic/model/Visit.class
 com/martinsanguin/sfgpetclinic/services/VetService.class
