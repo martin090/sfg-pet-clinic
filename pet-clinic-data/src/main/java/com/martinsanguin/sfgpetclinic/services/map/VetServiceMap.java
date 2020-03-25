@@ -1,6 +1,6 @@
 package com.martinsanguin.sfgpetclinic.services.map;
 
-import com.martinsanguin.sfgpetclinic.model.Speciality;
+import com.martinsanguin.sfgpetclinic.model.Specialty;
 import com.martinsanguin.sfgpetclinic.model.Vet;
 import com.martinsanguin.sfgpetclinic.services.SpecialityService;
 import com.martinsanguin.sfgpetclinic.services.VetService;
@@ -37,7 +37,7 @@ public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetSe
         if(object.getSpecialities().size() > 0){
             object.getSpecialities().forEach(speciality -> {
                 if(speciality.getId() == null){
-                    Speciality savedSpeciality = specialityService.save(speciality);
+                    Specialty savedSpeciality = specialityService.save(speciality);
                     speciality.setId(savedSpeciality.getId());
                 }
             });
