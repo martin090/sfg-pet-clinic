@@ -2,11 +2,13 @@ package com.martinsanguin.sfgpetclinic.services.map;
 
 import com.martinsanguin.sfgpetclinic.model.Specialty;
 import com.martinsanguin.sfgpetclinic.services.SpecialityService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default","map"})
 public class SpecialityMapService extends AbstractMapService<Specialty, Long> implements SpecialityService {
     @Override
     public Set<Specialty> findAll() {
