@@ -1,0 +1,40 @@
+package com.martinsanguin.sfgpetclinic.services.map;
+
+import com.martinsanguin.sfgpetclinic.model.Visit;
+import com.martinsanguin.sfgpetclinic.services.VisitService;
+import net.bytebuddy.implementation.bind.annotation.RuntimeType;
+import org.springframework.stereotype.Service;
+
+import java.util.Set;
+
+@Service
+public class VisitMapService extends AbstractMapService<Visit,Long> implements VisitService {
+    @Override
+    public Set<Visit> findAll() {
+        return super.findAll();
+    }
+
+    @Override
+    public Visit findById(Long aLong) {
+        return super.findById(aLong);
+    }
+
+    @Override
+    public Visit save(Visit object) {
+        if(object.getPet() == null || object.getPet().getOwner() == null || object.getPet().getId() == null ||
+            object.getPet().getOwner().getId() == null){
+            throw new RuntimeException("Invalid visit");
+        }
+        return super.save(object);
+    }
+
+    @Override
+    public void delete(Visit object) {
+        super.delete(object);
+    }
+
+    @Override
+    public void deleteById(Long aLong) {
+        super.deleteById(aLong);
+    }
+}
