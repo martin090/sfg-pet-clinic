@@ -6,8 +6,8 @@ Im following a <a href="https://www.udemy.com/course/spring-framework-5-beginner
 
 
 Tec<hnologies used:
-<li> Spring Boot 2 </li>
 <li> Java 11 </li>
+<li> Spring Boot 2 </li>
 <li> Spring MVC </li>
 <li> Spring Data JPA </li>
 <li> Lombok </li>
