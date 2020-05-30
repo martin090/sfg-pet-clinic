@@ -10,6 +10,7 @@ Tec<hnologies used:
 <li> Spring Boot 2 </li>
 <li> Spring MVC </li>
 <li> Spring Data JPA </li>
+<li> Thymeleaf </li>
 <li> Lombok </li>
 <li> Junit 5 </li>
 <li> Mockito </li>
