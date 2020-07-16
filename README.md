@@ -5,7 +5,7 @@ The purpose of this app is to learn the foundations of Spring Framework 5.
 Im following a <a href="https://www.udemy.com/course/spring-framework-5-beginner-to-guru/"> video course</a> on Udemy completemented with Spring in Action book by Craig Walls. 
 
 
-Tec<hnologies used:
+Technologies used:
 <li> Java 11 </li>
 <li> Spring Boot 2 </li>
 <li> Spring MVC </li>
